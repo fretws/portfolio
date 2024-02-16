@@ -1,6 +1,7 @@
 import React from "react"
 import Title from "../components/text/title/Title"
 import Paragraph from '../components/text/paragraph/Paragraph'
+import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home() {
   return (
