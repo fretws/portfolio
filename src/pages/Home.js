@@ -4,6 +4,7 @@ import Paragraph from '../components/text/paragraph/Paragraph'
 import Carousel from 'react-bootstrap/Carousel'
 
 export default function Home() {
+  console.log("Home page rendered")
   return (
     <>
       <Title>Hello there!</Title>
