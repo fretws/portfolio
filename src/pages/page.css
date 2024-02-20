@@ -1,0 +1,9 @@
+.carousel-large {
+  width: 65%;
+  margin: 0 auto 1em auto;
+
+  overflow: hidden;
+  border: 2px solid var(--color-one);
+  border-radius: 0.25em;
+  border-style: solid;
+}
