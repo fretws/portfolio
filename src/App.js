@@ -4,7 +4,7 @@ import Jobs from './pages/Jobs';
 import Projects from './pages/Projects';
 import Research from './pages/Research';
 import Education from './pages/Education';
-import Socials from './pages/Socials';
+import Contact from './pages/Contact';
 import Navigation from './components/structure/navigation/Navigation';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
     element: <Education />
   },
   {
-    path: "/socials",
-    element: <Socials />
+    path: "/contact",
+    element: <Contact />
   },
 ])
 
