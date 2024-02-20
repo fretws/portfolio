@@ -11,7 +11,6 @@ export default function Footer() {
       <div className={styles.column}>
         <h3>Contact</h3>
         <Stack>
-          <a href='tel:3605603650'>360.560.3650</a>
           <a href='mailto:shanefretwellbef@gmail.com'>shanefretwellbef@gmail.com</a>
           <a href='http://www.linkedin.com/in/shane-fretwell'>Linkedin</a>
           <a href='https://github.com/fretws'>Github</a>
