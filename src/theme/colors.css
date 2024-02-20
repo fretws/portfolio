@@ -1,0 +1,16 @@
+:root {
+  --color-page-background: white;
+  --color-on-page-background: black;
+  --text-on-page-background: black;
+
+  --color-one: hsla(200, 15%, 20%, 0.85);
+  --color-two: #DBAD8D;
+  --color-three: #fff3e8;
+  --color-four: hsla(200, 15%, 20%, 0.85);
+  --color-five: #ECDBCC;
+
+  --text-on-color-one: white;
+  --text-on-color-two: black;
+  --text-on-color-three: black;
+  --text-on-color-four: black;
+}
