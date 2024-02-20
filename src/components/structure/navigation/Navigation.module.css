@@ -1,0 +1,8 @@
+.bar {
+  background-color: var(--color-two);
+  color: var(--text-on-color-two);
+}
+
+.bar * {
+  color: var(--text-on-color-two);
+}

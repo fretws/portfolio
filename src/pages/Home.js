@@ -1,6 +1,7 @@
 import React from "react"
 import Title from "../components/text/title/Title"
 import Paragraph from '../components/text/paragraph/Paragraph'
+import Stack from 'react-bootstrap/Stack'
 import Carousel from 'react-bootstrap/Carousel'
 import CarouselImage from '../components/content/carousel-image/CarouselImage'
 
@@ -10,7 +11,7 @@ import cellularBetrayal from "../resources/img/social-engineering.png"
 export default function Home() {
   console.log("Home page rendered")
   return (
-    <>
+    <Stack gap={2}>
       <Title>Hello there!</Title>
       <Paragraph>
         Welcome to my personal website, where you can see all of my proudest work in Software Development and online experiences.
@@ -35,10 +36,8 @@ export default function Home() {
           </CarouselImage>
         </Carousel.Item>
       </Carousel>
-      <h2>Attributions</h2>
-      <Paragraph>
-        Cybersecurity icon by Good Wife from <a href="https://thenounproject.com/icon/cybersecurity-6535591/" target="_blank" title="Cybersecurity Icons" rel="noreferrer">Noun Project</a> (CC BY 3.0)
-      </Paragraph>
-    </>
+      <h2>Special Thanks</h2>
+      {/* Special thanks to Chen, Roshani, Prakash, and Geoffrey Anderson */}
+    </Stack>
   )
 }

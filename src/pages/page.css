@@ -1,6 +1,6 @@
 .carousel-large {
   width: 65%;
-  margin: 0 auto 1em auto;
+  margin: auto;
 
   overflow: hidden;
   border: 2px solid var(--color-one);

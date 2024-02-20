@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.5em 1em 2em 1em;
+  margin-top: 2em;
+
+  background-color: var(--color-four);
+}
+
+.column {
+  text-align: left;
+}
+
+.column h3 {
+  font-size: large;
+}

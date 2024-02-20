@@ -3,3 +3,11 @@
   background-color: var(--color-page-background);
   color: var(--text-on-page-background);
 }
+
+a {
+  color: var(--text-on-page-background);
+}
+
+a:hover {
+  color: var(--color-five);
+}

@@ -6,6 +6,7 @@ import Research from './pages/Research';
 import Education from './pages/Education';
 import Contact from './pages/Contact';
 import Navigation from './components/structure/navigation/Navigation';
+import Footer from './components/structure/footer/Footer'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -40,6 +41,7 @@ function App() {
     <div className="App">
       <Navigation/>
       <RouterProvider router={router} />
+      <Footer />
     </div>
   );
 }
