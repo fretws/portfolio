@@ -1,9 +1,14 @@
+.footerSpacer {
+  box-sizing: border-box;
+  height: 2em; /* Gives space of 2em as an artificial margin-top for the footer itself */
+}
+
 .footer {
+  margin-top: auto; /* Ensures the footer remains at the bottom of the page */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 1.5em 1em 2em 1em;
-  margin-top: 2em;
 
   background-color: var(--color-four);
 }
