@@ -6,3 +6,7 @@
 .bar * {
   color: var(--text-on-color-two);
 }
+
+.bar a:visited {
+  color: var(--text-on-color-two);
+}
