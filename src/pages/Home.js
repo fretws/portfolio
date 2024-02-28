@@ -12,7 +12,7 @@ export default function Home() {
   console.log("Home page rendered")
   return (
     <Stack gap={2}>
-      <Title>Hello there!</Title>
+      <Title>Development Spotlight</Title>
       <Paragraph>
         Welcome to my personal website, where you can see all of my proudest work in Software Development and online experiences.
       </Paragraph>
