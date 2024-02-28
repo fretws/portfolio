@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Navigation from './components/structure/navigation/Navigation';
 import Footer from './components/structure/footer/Footer'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,9 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      <RouterProvider router={router} />
+      <Container>
+        <RouterProvider router={router} />
+      </Container>
       <Footer />
     </div>
   );
