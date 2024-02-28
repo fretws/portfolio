@@ -15,16 +15,17 @@ import styles from "./LogoTitle.module.css"
 function LogoTitle(props) {
   return (
     <Container>
-      <Col>
-        <Row>
+      <Row>
+        <Col xs='12' sm='5' md='4' lg='2'>
           <img src={props.src} alt={props.alt} className={styles.logo} />
-        </Row>
-      </Col>
-      <Col>
-        <Row>
+        </Col>
+        <Col
+          className={styles.titleSection}
+          xs='12' sm='7'
+        >
           {props.children}
-        </Row>
-      </Col>
+        </Col>
+      </Row>
     </Container>
   )
 }

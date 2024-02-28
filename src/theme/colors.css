@@ -5,12 +5,12 @@
 
   --color-one: hsla(200, 15%, 20%, 0.85);
   --color-two: #004e98;
-  --color-three: #fff3e8;
+  /* --color-three: #fff3e8; */
   --color-four: #C0C0C0;
   --color-five: #ff6700;
 
   --text-on-color-one: white;
   --text-on-color-two: white;
-  --text-on-color-three: black;
+  /* --text-on-color-three: black; */
   --text-on-color-four: black;
 }
