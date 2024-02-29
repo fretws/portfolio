@@ -4,9 +4,13 @@
 }
 
 .bar * {
-  color: var(--text-on-color-two);
+  font-weight: bold;
 }
 
-.bar a:visited {
+.bar a, .bar a:visited {
+  color: var(--text-on-page-background);
+}
+
+.bar a:hover, .bar a:visited:hover {
   color: var(--text-on-color-two);
 }
