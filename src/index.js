@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './pages/page.css';
+import './theme/text.css'
 import './theme/colors.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
+import './pages/page.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

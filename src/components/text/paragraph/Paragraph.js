@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./Paragraph.module.css"
 
 /* 
 props {
@@ -7,6 +8,6 @@ props {
  */
 export default function Paragraph(props) {
   return (
-    <p>{props.children}</p>
+    <p className={styles.paragraph}>{props.children}</p>
   )
 }

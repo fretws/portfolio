@@ -22,8 +22,28 @@ export default function Jobs() {
         <LogoTitle.Text></LogoTitle.Text>
       </LogoTitle>
       <Paragraph>
-        
+        Monitored and improved the behavior, reliability, and performance of Verizon's customer-facing applications.
       </Paragraph>
+      <ul>
+        <li>
+          Analyzed the impact of dozens of service disruptions each week, giving insights into the experience of thousands of customers
+        </li>
+        <li>
+          Raised and supported 100+ crisis recovery sessions to restore functionality of business-critical systems
+        </li>
+        <li>
+          Ensured smooth deployment of over 40 major and minor software releases
+        </li>
+        <li>
+          Innovated upon analysis capabilities by leveraging a deep knowledge of Glassbox and Kibana
+        </li>
+        <li>
+          Led daily prioritization and task allocation meetings for a team of 6
+        </li>
+        <li>
+          Reduced the error rate across all applications from 11% to 7% by incorporating new monitoring techniques into the team's daily routines
+        </li>
+      </ul>
     </>
   )
 }

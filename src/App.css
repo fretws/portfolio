@@ -14,3 +14,7 @@ a {
 a:hover {
   color: var(--color-five);
 }
+
+ul {
+  list-style-type: var(--ul-bullet-style);
+}
