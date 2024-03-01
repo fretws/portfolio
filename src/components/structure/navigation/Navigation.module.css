@@ -4,7 +4,7 @@
 }
 
 .bar * {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .bar a, .bar a:visited {
@@ -13,4 +13,8 @@
 
 .bar a:hover, .bar a:visited:hover {
   color: var(--text-on-color-two);
+}
+
+.container {
+  max-width: var(--body-max-width);
 }

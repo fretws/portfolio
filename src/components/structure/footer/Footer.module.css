@@ -4,19 +4,14 @@
 }
 
 .footer {
+  max-width: var(--body-max-width);
+
   margin-top: auto; /* Ensures the footer remains at the bottom of the page */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   padding: 1.5em 1em 2em 1em;
 
   background-color: var(--color-four);
 }
 
-.column {
-  text-align: left;
-}
-
-.column h3 {
-  font-size: large;
+.columnHeader {
+  font-size: larger;
 }

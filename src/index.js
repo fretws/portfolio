@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './theme/layout.css'
 import './theme/text.css'
 import './theme/colors.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';

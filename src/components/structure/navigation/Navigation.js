@@ -7,8 +7,8 @@ import styles from './Navigation.module.css'
 
 export default function Navigation() {
   return (
-    <Navbar expand="lg" sticky="top" className={styles.bar}>
-      <Container>
+    <Navbar expand="lg" className={styles.bar}>
+      <Container fluid className={styles.container + ' px-md-4'}>
         <Navbar.Brand>Shane Fretwell</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse>

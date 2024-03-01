@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Container>
+      <Container className='container-page-width'>
         <RouterProvider router={router} />
       </Container>
       <Footer />
