@@ -1,3 +1,7 @@
+.container {
+  max-width: var(--body-max-width);
+}
+
 .logo {
   width: 90%;
   max-width: 50vw;
