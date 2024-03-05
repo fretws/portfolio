@@ -16,9 +16,9 @@ export default function Navigation() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/jobs">Jobs</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/research">Research</Nav.Link>
+            {/* <Nav.Link href="/research">Research</Nav.Link>
             <Nav.Link href="/education">Education</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

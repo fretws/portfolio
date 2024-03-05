@@ -1,6 +1,6 @@
 import React from "react"
 import Title from "../components/text/title/Title"
-import SectionTitle from "../components/text/section-title/SectionTitle"
+// import SectionTitle from "../components/text/section-title/SectionTitle"
 import Paragraph from '../components/text/paragraph/Paragraph'
 import Carousel from 'react-bootstrap/Carousel'
 import CarouselImage from '../components/content/carousel-image/CarouselImage'
@@ -45,7 +45,7 @@ export default function Home() {
           </Carousel>
         </Col>
       </Row>
-        <SectionTitle>Special Thanks</SectionTitle>
+        {/* <SectionTitle>Special Thanks</SectionTitle> */}
         {/* Special thanks to Chen, Roshani, Prakash, and Geoffrey Anderson */}
     </Container>
   )
