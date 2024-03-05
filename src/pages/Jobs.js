@@ -3,6 +3,7 @@ import React from 'react'
 import Title from "../components/text/title/Title"
 import JobExperience from '../components/content/job-experience/JobExperience'
 import wipro from "../resources/img/wipro-logo.png"
+import easybites from "../resources/svg/EasyIcon_green.svg"
 import Paragraph from '../components/text/paragraph/Paragraph'
 
 export default function Jobs() {
@@ -11,10 +12,10 @@ export default function Jobs() {
     <>
       <Title>Professional Experience</Title>
       <JobExperience
-        src={wipro} alt={"Wipro company logo."}
-        jobTitle={"Site Reliability Engineer"}
-        company={"Wipro Consultant"}
-        beginDate={"Jun. 2022"} endDate={"Dec. 2023"} duration={"1yr 7mos"}
+        src={wipro} alt="Wipro company logo"
+        jobTitle="Site Reliability Engineer"
+        company="Wipro Consultant"
+        beginDate="Jun. 2022" endDate="Dec. 2023" duration="1yr 7mos"
       >
         <Paragraph>
           Monitored and improved the behavior, reliability, and performance of Verizon's customer-facing applications.
@@ -37,6 +38,33 @@ export default function Jobs() {
           </li>
           <li>
             Reduced the error rate across all applications from 11% to 7% by incorporating new monitoring techniques into the team's daily routines
+          </li>
+        </ul>
+      </JobExperience>
+      <JobExperience
+        src={easybites} alt="EasyBites logo"
+        jobTitle="Frontend React Developer"
+        company="EasyBites"
+        beginDate="Jul. 2021" endDate="Sep. 2021" duration="3mos"
+      >
+        <Paragraph>
+          Development of a responsive, efficient, and modern Minimum Viable Product for EasyBites.
+        </Paragraph>
+        <ul>
+          <li>
+            Worked in a team of 9 developers, utilizing Gitlab and peer-reviewed pull requests for improved collaboration
+          </li>
+          <li>
+            Completed over 65 Jira tickets for component creation, bug fixes, and page development
+          </li>
+          <li>
+            Engaged with UX researchers and designers to tailor the customer experience according to user feedback
+          </li>
+          <li>
+            Refactored existing code base to increase component versatility and improve readability
+          </li>
+          <li>
+            Written in Typescript utilizing Next.js with deployment and hosting on Firebase
           </li>
         </ul>
       </JobExperience>
