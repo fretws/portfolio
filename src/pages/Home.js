@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import CarouselImage from '../components/content/carousel-image/CarouselImage'
 
 import sprout from "../resources/img/sprout-time-lapse.png"
+import easybites from "../resources/img/easybites-homepage.png"
 import cellularBetrayal from "../resources/img/social-engineering.png"
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
@@ -31,6 +32,15 @@ export default function Home() {
                 title="Sprout"
               >
                 Helping kids grow their science education and environmental awareness
+              </CarouselImage>
+            </Carousel.Item>
+            <Carousel.Item>
+              <CarouselImage
+                src={easybites}
+                alt="Screenshot showing the EasyBites homepage"
+                title="EasyBites"
+              >
+                Delivering homecooked meals from chefs in your area
               </CarouselImage>
             </Carousel.Item>
             <Carousel.Item>
