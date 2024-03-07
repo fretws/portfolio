@@ -15,11 +15,11 @@ export default function Projects() {
     <>
       <Title>Personal and Academic Projects</Title>
       <ExperienceSummary
-        src={sprout} alt="Sprout gameplay screenshot"
+        logo={<img src={sprout} alt={"Sprout gameplay screenshot"} />}
         jobTitle="Software Engineering Lead"
         affiliation={<><a href="/education">University of Washington</a> Capstone Project</>}
         beginDate="Jan. 2022" endDate="Jun. 2022" duration="3mos"
-        artifact={<a href={"https://sproutuw.netlify.app"}>See it yourself</a>}
+        artifactLink="https://sproutuw.netlify.app"
         githubLink="https://github.com/Vivianngu3/GameUnity"
       >
         <Paragraph>

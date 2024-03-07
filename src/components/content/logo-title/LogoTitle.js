@@ -6,9 +6,7 @@ import Col from "react-bootstrap/Col"
 import styles from "./LogoTitle.module.css"
 
 /*  Props {
- *    src: logo source file,
- *    alt: alt text,
- *    title: text of the title next to the logo
+ *    logo: the JSX for the logo to be displayed
  * }
  */
 
@@ -17,7 +15,12 @@ function LogoTitle(props) {
     <Container className={styles.container}>
       <Row>
         <Col xs='12' sm='5' md='4' lg='2'>
-          <img src={props.src} alt={props.alt} className={styles.logo} />
+          {/* A logo wrapper is needed to apply styles to the passed logo without having to modify its immutable className */}
+          <div className={styles.logoWrapper}>
+            {/* We pass in the JSX for the logo instead of the src and alt for greater flexibility in what JSX is used to display the logo. Still, either an img or svg tag are necessary */}
+            {props.logo}
+          </div>
+          {/* <img src={props.src} alt={props.alt} className={styles.logo} /> */}
         </Col>
         <Col
           className={styles.titleSection}

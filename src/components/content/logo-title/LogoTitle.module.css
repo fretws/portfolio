@@ -2,19 +2,22 @@
   max-width: var(--body-max-width);
 }
 
-.logo {
+.logoWrapper {
   width: 90%;
   max-width: 50vw;
   aspect-ratio: 4 / 3;
-  
-  display: block;
   padding: 1em;
   margin: 0 auto 0.5em auto;
-  background-color: white;
 
+  background-color: white;
   border: 2px solid var(--color-one);
   border-radius: 0.25em;
   border-style: solid;
+}
+
+.logoWrapper * {
+  width: 100%;
+  aspect-ratio: inherit;
 }
 
 .titleSection {

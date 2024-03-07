@@ -14,14 +14,22 @@ import LogoTitle from '../logo-title/LogoTitle'
  *    beginDate: begin date of work as text
  *    endDate: end date of work as text
  *    duration: duration of work
- *    artifact: link to the deployed project (optional)
+ *    artifactLink: link to the deployed project (optional)
  *    githubLink: link to the github repo (optional)
  *  }
  */
 export default function ExperienceSummary(props) {
+  let logo = props.logo;
+  if (props.artifactLink) {
+    logo = (
+      <a href={props.artifactLink}>
+        {props.logo}
+      </a>
+    )
+  }
   return (
     <>
-      <LogoTitle src={props.src} alt={props.alt}>
+      <LogoTitle logo={logo}>
         <LogoTitle.Title>
           {props.jobTitle}
         </LogoTitle.Title>
@@ -29,7 +37,6 @@ export default function ExperienceSummary(props) {
           {props.affiliation}
           <br />
           {props.beginDate} - {props.endDate} ({props.duration})
-          {props.artifact && <><br /><a href={props.artifact}>Deployed project</a></>}
           {props.githubLink && <><br /><a href={props.githubLink}>Github repo</a></>}
         </LogoTitle.Text>
       </LogoTitle>
