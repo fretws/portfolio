@@ -21,3 +21,9 @@
   padding: 0.25em;
   text-align: start;
 }
+
+.titleSection a {
+  font-weight: 600;
+  color: var(--text-accent-color);
+  text-decoration: none;
+}

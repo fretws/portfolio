@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Title from "../components/text/title/Title"
-import JobExperience from '../components/content/job-experience/JobExperience'
+import ExperienceSummary from '../components/content/experience-summary/ExperienceSummary'
 import wipro from "../resources/img/wipro-logo.png"
 import easybites from "../resources/svg/EasyIcon_green.svg"
 import Paragraph from '../components/text/paragraph/Paragraph'
@@ -11,10 +11,10 @@ export default function Jobs() {
   return (
     <>
       <Title>Professional Experience</Title>
-      <JobExperience
+      <ExperienceSummary
         src={wipro} alt="Wipro company logo"
         jobTitle="Site Reliability Engineer"
-        company="Wipro Consultant"
+        affiliation="Wipro Consultant"
         beginDate="Jun. 2022" endDate="Dec. 2023" duration="1yr 7mos"
       >
         <Paragraph>
@@ -40,11 +40,11 @@ export default function Jobs() {
             Reduced the error rate across all applications from 11% to 7% by incorporating new monitoring techniques into the team's daily routines
           </li>
         </ul>
-      </JobExperience>
-      <JobExperience
+      </ExperienceSummary>
+      <ExperienceSummary
         src={easybites} alt="EasyBites logo"
         jobTitle="Frontend React Developer"
-        company="EasyBites"
+        affiliation="EasyBites"
         beginDate="Jul. 2021" endDate="Sep. 2021" duration="3mos"
       >
         <Paragraph>
@@ -67,7 +67,7 @@ export default function Jobs() {
             Written in Typescript utilizing Next.js with deployment and hosting on Firebase
           </li>
         </ul>
-      </JobExperience>
+      </ExperienceSummary>
     </>
   )
 }
