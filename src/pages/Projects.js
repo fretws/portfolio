@@ -1,11 +1,10 @@
 import React from 'react';
 
-import sprout from '../resources/img/sprout-time-lapse.png'
+import sprout from '../resources/svg/sprout-icon.svg'
 
 import Title from "../components/text/title/Title"
 import Paragraph from '../components/text/paragraph/Paragraph'
 import ExperienceSummary from '../components/content/experience-summary/ExperienceSummary'
-// import Accordion from "react-bootstrap/Accordion"
 
 // TODO: Include social engineering / cellular betrayal project
 
