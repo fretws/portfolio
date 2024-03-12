@@ -5,9 +5,9 @@ import Col from "react-bootstrap/Col"
 
 import styles from "./LogoTitle.module.css"
 
-/*  Props {
- *    logo: the JSX for the logo to be displayed
- * }
+/**
+ * @typedef {object} props
+ * @param {React.JSX} props.logo The logo to be displayed
  */
 
 function LogoTitle(props) {

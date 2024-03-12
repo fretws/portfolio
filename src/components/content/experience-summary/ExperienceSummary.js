@@ -2,21 +2,20 @@ import React from "react"
 
 import LogoTitle from '../logo-title/LogoTitle'
 
-/*
+/**
  * Gives a summary of a job or project experience with a logo
  * Element children will be included below the summary info that is provided as props
  * Responsive sizing to screen width
- *  props {
- *    src: logo source file
- *    alt: logo alt text
- *    jobTitle
- *    affiliation: company or affiliation of the project/work experience
- *    beginDate: begin date of work as text
- *    endDate: end date of work as text
- *    duration: duration of work
- *    artifactLink: link to the deployed project (optional)
- *    githubLink: link to the github repo (optional)
- *  }
+ * @typedef {object} props
+ * @param {React.JSX} props.logo JSX tag for the logo (typically an \<img>)
+ * @param {string} props.jobTitle
+ * @param {string | React.JSX} props.affiliation company or affiliation of the project/work experience
+ * @param {string} props.beginDate begin date of work as text
+ * @param {string} props.endDate end date of work as text
+ * @param {string} props.duration duration of work
+ * @param {string} props.artifactLink link to the deployed project (optional)
+ * @param {string} props.githubLink link to the github repo (optional)
+ * @returns
  */
 export default function ExperienceSummary(props) {
   let logo = props.logo;
