@@ -1,6 +1,6 @@
 import React from 'react';
 
-import sprout from '../resources/svg/sprout-icon.svg'
+import sprout from '../resources/svg/sprig-icon.svg'
 
 import Title from "../components/text/title/Title"
 import Paragraph from '../components/text/paragraph/Paragraph'
