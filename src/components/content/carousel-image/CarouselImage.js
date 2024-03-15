@@ -3,12 +3,10 @@ import Carousel from 'react-bootstrap/Carousel'
 import styles from "./CarouselImage.module.css"
 
 /**
- * @typedef {object} props
- * @param {string} props.src Image route (For best results, image should be 16x9)
- * @param {string} props.alt Image description
- * @param {string} props.title Accompanying title
- * @param {string} props.text Accompanying caption
- * @returns
+ * @param {string} src Image route (For best results, image should be 16x9)
+ * @param {string} alt Image description
+ * @param {string} title Accompanying title
+ * @param {string} text Accompanying caption
  */
 
 export default function CarouselImage(props) {

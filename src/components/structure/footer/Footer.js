@@ -7,6 +7,9 @@ import Paragraph from '../../text/paragraph/Paragraph'
 
 import styles from './Footer.module.css'
 
+/**
+ * Responsive page footer with contact details and attributions
+ */
 export default function Footer() {
   return (
     // Attributions and contact info

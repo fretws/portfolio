@@ -5,6 +5,9 @@ import Nav from 'react-bootstrap/Nav'
 
 import styles from './Navigation.module.css'
 
+/**
+ * Navigation bar with title and links
+ */
 export default function Navigation() {
   return (
     <Navbar expand="lg" className={styles.bar}>

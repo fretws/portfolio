@@ -6,10 +6,18 @@ import Col from "react-bootstrap/Col"
 import styles from "./LogoTitle.module.css"
 
 /**
- * @typedef {object} props
- * @param {React.JSX} props.logo The logo to be displayed
+ * @param {React.JSX} logo Logo to be displayed
+ * @param {React.JSX} children Title with optional Text.
+ * @example 
+ * ```JavaScript
+ * <LogoTitle logo={<img />}>
+ *   <LogoTitle.Title>Title content</LogoTitle.Title>
+ *   <LogoTitle.Text>Text content</LogoTitle.Text>
+ * </LogoTitle>
+ * ```
+ * @see {@link Title LogoTitle.Title}
+ * @see {@link Text LogoTitle.Text}
  */
-
 function LogoTitle(props) {
   return (
     <Container className={styles.container}>
@@ -20,7 +28,6 @@ function LogoTitle(props) {
             {/* We pass in the JSX for the logo instead of the src and alt for greater flexibility in what JSX is used to display the logo. Still, either an img or svg tag are necessary */}
             {props.logo}
           </div>
-          {/* <img src={props.src} alt={props.alt} className={styles.logo} /> */}
         </Col>
         <Col
           className={styles.titleSection}
@@ -33,19 +40,29 @@ function LogoTitle(props) {
   )
 }
 
+/**
+ * @alias LogoTitle.Title
+ * @param {React.JSX} props.children Title to be displayed
+ */
 function Title(props) {
   return (
     <h3 className={styles.title}>{props.children}</h3>
   )
 }
 
+/**
+ * @alias LogoTitle.Text
+ * @param {React.JSX} props.children Text to be displayed
+ */
 function Text(props) {
   return (
     <p className={styles.text}>{props.children}</p>
   )
 }
 
-LogoTitle.Title = Title;
-LogoTitle.Text = Text;
+Object.assign(LogoTitle, {
+  Title: Title,
+  Text: Text,
+});
 
-export default LogoTitle
+export default LogoTitle;
