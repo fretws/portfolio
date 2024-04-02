@@ -1,17 +1,4 @@
-:root {
-  --color-page-background: #EDF5FC;
-  --color-on-page-background: #21C063;
-  --text-on-page-background: #161612;
-
-  --color-one: hsla(200, 15%, 20%, 0.85);
-  --color-two: #EDF5FC;
-  /* --color-three: #fff3e8; */
-  --color-four: #EDF5FC;
-  --color-five: #ff6700;
-
-  --text-on-color-one: white;
-  --text-on-color-two: #126936;
-  /* --text-on-color-three: black; */
-  --text-on-color-four: black;
-  --text-accent-color: #C7434E;
+html {
+  background-color: var(--color-page-background);
+  color: var(--text-on-page-background);
 }

@@ -1,16 +1,10 @@
-@font-face {
-  font-family: 'Playfair Display';
-  src: url(../resources/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf);
+body {
+  font-family: var(--font-family-default);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
-  font-family: 'Raleway';
-  src: url(../resources/fonts/raleway/Raleway-VariableFont_wght.ttf);
-}
-
-:root {
-  --font-family-header: 'Raleway';
-  --font-family-body: 'Raleway';
-  --font-family-default: 'Raleway';
-  --ul-bullet-style: "-  ";
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
