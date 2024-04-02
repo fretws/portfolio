@@ -7,7 +7,7 @@ import LogoTitle from '../logo-title/LogoTitle'
  * Element children will be included below the summary info that is provided as props
  * Responsive sizing to screen width
  * @param {React.JSX} logo JSX tag for the logo (typically an \<img>)
- * @param {string} jobTitle
+ * @param {string} title
  * @param {string | React.JSX} affiliation company or affiliation of the project/work experience
  * @param {string} beginDate begin date of work as text
  * @param {string} endDate end date of work as text
@@ -28,7 +28,7 @@ export default function ExperienceSummary(props) {
     <>
       <LogoTitle logo={logo}>
         <LogoTitle.Title>
-          {props.jobTitle}
+          {props.title}
         </LogoTitle.Title>
         <LogoTitle.Text>
           {props.affiliation}

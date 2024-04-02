@@ -14,8 +14,8 @@ export default function Projects() {
     <>
       <Title>Personal and Academic Projects</Title>
       <ExperienceSummary
-        logo={<img src={sprout} alt={"Sprout gameplay screenshot"} />}
-        jobTitle="Software Engineering Lead"
+        logo={<img src={sprout} alt="Sprout icon" />}
+        title="Sprout: The Life of a Plant"
         affiliation={<><a href="/education">University of Washington</a> Capstone Project</>}
         beginDate="Jan. 2022" endDate="Jun. 2022" duration="3mos"
         artifactLink="https://sproutuw.netlify.app"
