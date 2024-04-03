@@ -13,7 +13,7 @@ export default function Jobs() {
       <Title>Professional Experience</Title>
       <ExperienceSummary
         logo={<img src={wipro} alt={"Wipro company logo"} />}
-        jobTitle="Site Reliability Engineer"
+        title="Site Reliability Engineer"
         affiliation="Wipro Consultant"
         beginDate="Jun. 2022" endDate="Dec. 2023" duration="1yr 7mos"
       >
@@ -43,7 +43,7 @@ export default function Jobs() {
       </ExperienceSummary>
       <ExperienceSummary
         logo={<img src={easybites} alt={"EasyBites logo"} />}
-        jobTitle="Frontend React Developer"
+        title="Frontend React Developer"
         affiliation="EasyBites"
         beginDate="Jul. 2021" endDate="Sep. 2021" duration="3mos"
       >

@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './theme/layout.css'
-import './theme/text.css'
-import './theme/colors.css'
+/*
+ * The order of imports here is important -- to preserve custom styles, ensure
+ * that bootstrap is imported before all other styling imports. To ensure
+ * constants are available for custom css files to use, ensure these are
+ * imported before any custom style sheets.
+ */
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './theme/constants/colors.css'
+import './theme/constants/layout.css'
+import './theme/constants/text.css'
+import './theme/colors.css'
+import './theme/text.css'
 import './index.css';
 import './pages/page.css';
 import App from './App';

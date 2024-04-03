@@ -1,16 +1,3 @@
 body {
   margin: 0;
-  font-family: var(--font-family-default);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  background-color: var(--color-page-background);
-  color: var(--text-on-page-background);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
