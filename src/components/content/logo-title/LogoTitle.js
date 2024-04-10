@@ -21,18 +21,15 @@ import styles from "./LogoTitle.module.css"
 function LogoTitle(props) {
   return (
     <Container className={styles.container}>
-      <Row>
-        <Col xs='12' sm='5' md='4' lg='2'>
-          {/* A logo wrapper is needed to apply styles to the passed logo without having to modify its immutable className */}
+      <Row xs='12'>
+        <Col sm='auto'>
+          {/* A logo wrapper is needed to apply styles to the passed props.logo without having to modify its immutable className */}
           <div className={styles.logoWrapper}>
             {/* We pass in the JSX for the logo instead of the src and alt for greater flexibility in what JSX is used to display the logo. Still, either an img or svg tag are necessary */}
             {props.logo}
           </div>
         </Col>
-        <Col
-          className={styles.titleSection}
-          xs='12' sm='7'
-        >
+        <Col className={styles.titleSection}>
           {props.children}
         </Col>
       </Row>
