@@ -13,7 +13,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 export default function Home() {
-  console.log("Home page rendered")
   return (
     <Container className='container-page-width'>
       <Row className="vertical-center">

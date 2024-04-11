@@ -10,7 +10,6 @@ import ExperienceSummary from '../components/content/experience-summary/Experien
 // TODO: Include social engineering / cellular betrayal project
 
 export default function Portfolio() {
-  console.log("Portfolio page rendered")
   return (
     <>
       <Title>Software Development Portfolio</Title>
