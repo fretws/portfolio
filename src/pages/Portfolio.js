@@ -9,11 +9,11 @@ import ExperienceSummary from '../components/content/experience-summary/Experien
 
 // TODO: Include social engineering / cellular betrayal project
 
-export default function Projects() {
-  console.log("Projects page rendered")
+export default function Portfolio() {
+  console.log("Portfolio page rendered")
   return (
     <>
-      <Title>Personal and Academic Projects</Title>
+      <Title>Software Development Portfolio</Title>
       <ExperienceSummary
         logo={<img src={sprout} alt="Sprout icon" />}
         title="Sprout - The Life of a Plant"
