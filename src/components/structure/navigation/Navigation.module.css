@@ -8,11 +8,11 @@
 }
 
 .bar a, .bar a:visited {
-  color: var(--text-on-page-background);
+  color: var(--text-on-color-two);
 }
 
 .bar a:hover, .bar a:visited:hover {
-  color: var(--text-on-color-two);
+  color: var(--color-accent-one);
 }
 
 .container {

@@ -9,7 +9,8 @@
   margin-top: auto; /* Ensures the footer remains at the bottom of the page */
   padding: 1.5em 1em 2em 1em;
 
-  background-color: var(--color-four);
+  background-color: var(--color-two);
+  color: var(--text-on-color-two);
 }
 
 .columnHeader {

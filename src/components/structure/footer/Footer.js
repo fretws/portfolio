@@ -31,6 +31,9 @@ export default function Footer() {
               <Paragraph>
                 Cybersecurity icon by Good Wife from <a href="https://thenounproject.com/icon/cybersecurity-6535591/" target="_blank" title="Cybersecurity Icons" rel="noreferrer">Noun Project</a> (CC BY 3.0)
               </Paragraph>
+              <Paragraph>
+                <a target="_blank" rel="noreferrer" href="https://icons8.com/icon/blk2PNUlJAYt/external-link">External Link</a> icon by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+              </Paragraph>
             </Stack>
           </Col>
         </Row>

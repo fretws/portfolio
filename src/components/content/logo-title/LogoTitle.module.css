@@ -6,7 +6,7 @@
   height: 8em;
   aspect-ratio: 4 / 3;
   padding: 1em;
-  margin: 0 auto 0.5em auto;
+  margin: 0 auto;
 
   background-color: white;
   border: 2px solid var(--color-one);
@@ -27,4 +27,8 @@
 .titleSection a {
   font-weight: 600;
   color: var(--text-accent-color);
+}
+
+.text {
+  margin-bottom: 0;
 }

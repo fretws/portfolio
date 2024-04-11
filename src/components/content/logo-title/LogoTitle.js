@@ -17,6 +17,7 @@ import styles from "./LogoTitle.module.css"
  * ```
  * @see {@link Title LogoTitle.Title}
  * @see {@link Text LogoTitle.Text}
+ * @see {@link IconLinks LogoTitle.IconLinks}
  */
 function LogoTitle(props) {
   return (
@@ -57,9 +58,20 @@ function Text(props) {
   )
 }
 
+/**
+ * @alias LogoTitle.IconLinks
+ * @param {React.JSX} props.children Icons to be displayed
+ */
+function IconLinks(props) {
+  return (
+    <div>{props.children}</div>
+  )
+}
+
 Object.assign(LogoTitle, {
   Title: Title,
   Text: Text,
+  IconLinks: IconLinks,
 });
 
 export default LogoTitle;

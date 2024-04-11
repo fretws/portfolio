@@ -1,6 +1,7 @@
 import React from "react"
 
 import LogoTitle from '../logo-title/LogoTitle'
+import IconButton from '../icon-button/IconButton';
 
 /**
  * Gives a summary of a job or project experience with a logo
@@ -30,11 +31,14 @@ export default function ExperienceSummary(props) {
         <LogoTitle.Title>
           {props.title}
         </LogoTitle.Title>
+        <LogoTitle.IconLinks>
+          {props.githubLink && <IconButton variant="github" link={props.githubLink} />}
+          {props.artifactLink && <IconButton variant="default" link={props.artifactLink} />}
+        </LogoTitle.IconLinks>
         <LogoTitle.Text>
           {props.affiliation}
           <br />
           {props.beginDate} - {props.endDate} ({props.duration})
-          {props.githubLink && <><br /><a href={props.githubLink}>Github repo</a></>}
         </LogoTitle.Text>
       </LogoTitle>
       {props.children}
