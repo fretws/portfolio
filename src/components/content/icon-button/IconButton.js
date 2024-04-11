@@ -13,11 +13,11 @@ export default function IconButton(props) {
   switch (props.variant) {
     case ("github"):
       return (
-        <_IconButton color="black" icon={github} link={props.link} alt="Github" />
+        <BaseIconButton color="black" icon={github} link={props.link} alt="Github" />
       )
     default:
       return (
-        <_IconButton color="accent" icon={link} link={props.link} alt="External Link" />
+        <BaseIconButton color="accent" icon={link} link={props.link} alt="External Link" />
       )
   }
 }
@@ -28,7 +28,7 @@ export default function IconButton(props) {
  * @param {string} link Link to open in new tab when icon is clicked
  * @param {string} alt alt text for icon
  */
-function _IconButton(props) {
+function BaseIconButton(props) {
   return (
     <a href={props.link} target="_blank" rel="noreferrer">
       <button className={`${styles.button} ${styles[props.color]}`}>
