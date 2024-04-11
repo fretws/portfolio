@@ -17,22 +17,20 @@ import styles from "./LogoTitle.module.css"
  * ```
  * @see {@link Title LogoTitle.Title}
  * @see {@link Text LogoTitle.Text}
+ * @see {@link IconLinks LogoTitle.IconLinks}
  */
 function LogoTitle(props) {
   return (
     <Container className={styles.container}>
-      <Row>
-        <Col xs='12' sm='5' md='4' lg='2'>
-          {/* A logo wrapper is needed to apply styles to the passed logo without having to modify its immutable className */}
+      <Row xs='12'>
+        <Col sm='auto'>
+          {/* A logo wrapper is needed to apply styles to the passed props.logo without having to modify its immutable className */}
           <div className={styles.logoWrapper}>
             {/* We pass in the JSX for the logo instead of the src and alt for greater flexibility in what JSX is used to display the logo. Still, either an img or svg tag are necessary */}
             {props.logo}
           </div>
         </Col>
-        <Col
-          className={styles.titleSection}
-          xs='12' sm='7'
-        >
+        <Col className={styles.titleSection}>
           {props.children}
         </Col>
       </Row>
@@ -60,9 +58,20 @@ function Text(props) {
   )
 }
 
+/**
+ * @alias LogoTitle.IconLinks
+ * @param {React.JSX} props.children Icons to be displayed
+ */
+function IconLinks(props) {
+  return (
+    <div>{props.children}</div>
+  )
+}
+
 Object.assign(LogoTitle, {
   Title: Title,
   Text: Text,
+  IconLinks: IconLinks,
 });
 
 export default LogoTitle;

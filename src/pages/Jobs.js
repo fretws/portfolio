@@ -7,7 +7,6 @@ import easybites from "../resources/svg/EasyIcon_green.svg"
 import Paragraph from '../components/text/paragraph/Paragraph'
 
 export default function Jobs() {
-  console.log("Jobs page rendered")
   return (
     <>
       <Title>Professional Experience</Title>

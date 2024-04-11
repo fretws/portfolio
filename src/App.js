@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './pages/Home';
 import Jobs from './pages/Jobs';
-import Projects from './pages/Projects';
+import Portfolio from './pages/Portfolio';
 // import Research from './pages/Research';
 // import Education from './pages/Education';
 // import Contact from './pages/Contact';
@@ -20,8 +20,8 @@ const router = createBrowserRouter([
     element: <Jobs />
   },
   {
-    path: "/projects",
-    element: <Projects />
+    path: "/portfolio",
+    element: <Portfolio />
   },
   // {
   //   path: "/research",

@@ -3,11 +3,10 @@
 }
 
 .logoWrapper {
-  width: 90%;
-  max-width: 50vw;
+  height: 8em;
   aspect-ratio: 4 / 3;
   padding: 1em;
-  margin: 0 auto 0.5em auto;
+  margin: 0 auto;
 
   background-color: white;
   border: 2px solid var(--color-one);
@@ -16,8 +15,8 @@
 }
 
 .logoWrapper * {
+  height: 100%;
   width: 100%;
-  aspect-ratio: inherit;
 }
 
 .titleSection {
@@ -28,4 +27,8 @@
 .titleSection a {
   font-weight: 600;
   color: var(--text-accent-color);
+}
+
+.text {
+  margin-bottom: 0;
 }
