@@ -1,17 +1,20 @@
 import React from 'react';
 
+import cherryBlossoms from '../resources/img/cherry-blossoms.jpg'
 import sprout from '../resources/svg/sprig-icon.svg'
 import easybites from '../resources/svg/EasyIcon_green.svg'
 
 import Title from "../components/text/title/Title"
 import Paragraph from '../components/text/paragraph/Paragraph'
 import ExperienceSummary from '../components/content/experience-summary/ExperienceSummary'
+import BackgroundImage from '../components/content/background-image/BackgroundImage';
 
 // TODO: Include social engineering / cellular betrayal project
 
 export default function Portfolio() {
   return (
     <>
+      <BackgroundImage src={cherryBlossoms} />
       <Title>Software Development Portfolio</Title>
       <ExperienceSummary
         logo={<img src={sprout} alt="Sprout icon" />}
