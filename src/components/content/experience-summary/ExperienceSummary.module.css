@@ -1,0 +1,4 @@
+.outermost {
+  /* Just for fun, use the golden ratio: 1.618 */
+  max-width: calc(var(--body-max-width) / 1.618);
+}
