@@ -17,7 +17,7 @@ export default function Education() {
       <img className="wide" src={uw} alt="University of Washington Seattle Campus" />
       <Row>
         <Col>
-          <SectionTitle>University of Washington</SectionTitle>
+          <SectionTitle>University of Washington | 2018-2022</SectionTitle>
         </Col>
         <Col xs="auto">
           <Stack direction='horizontal' className="mt-3">
