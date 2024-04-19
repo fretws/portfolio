@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Jobs from './pages/Jobs';
 import Portfolio from './pages/Portfolio';
 // import Research from './pages/Research';
-// import Education from './pages/Education';
+import Education from './pages/Education';
 // import Contact from './pages/Contact';
 import Navigation from './components/structure/navigation/Navigation';
 import Footer from './components/structure/footer/Footer'
@@ -27,10 +27,10 @@ const router = createBrowserRouter([
   //   path: "/research",
   //   element: <Research />
   // },
-  // {
-  //   path: "/education",
-  //   element: <Education />
-  // },
+  {
+    path: "/education",
+    element: <Education />
+  },
   // {
   //   path: "/contact",
   //   element: <Contact />

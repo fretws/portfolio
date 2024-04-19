@@ -3,6 +3,8 @@ import React from "react"
 import LogoTitle from '../logo-title/LogoTitle'
 import IconButton from '../icon-button/IconButton';
 
+import styles from './ExperienceSummary.module.css'
+
 /**
  * Gives a summary of a job or project experience with a logo
  * Element children will be included below the summary info that is provided as props
@@ -26,7 +28,7 @@ export default function ExperienceSummary(props) {
     )
   }
   return (
-    <>
+    <div className={styles.outermost}>
       <LogoTitle logo={logo}>
         <LogoTitle.Title>
           {props.title}
@@ -42,6 +44,6 @@ export default function ExperienceSummary(props) {
         </LogoTitle.Text>
       </LogoTitle>
       {props.children}
-    </>
+    </div>
   )
 }
