@@ -48,8 +48,6 @@
 
 img.wide {
   width: 100%;
-  /* min-width: 500px;
-  max-width: 100vw; */
   height: 400px;
   object-fit: cover;
 }
